@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<link href="/styles.css" rel="stylesheet">
+	<title>Secure page</title>
+</head>
+<body>
+	<header class="slate">
+		<div class="logo-holder">
+			<img src="/lion.png" class="logo">
+			<span class="logo-title">Project #4</span>
+		</div>
+		<nav>
+			<a href="/" class="main-nav">Home</a>
+			<a href="/about.html" class="main-nav">About</a>
+			<form method="post" action="/login.html">
+				<input type="hidden" name="signout" value="true">
+				<button class="green left">Sign out</button>
+			</form>
+		</nav>
+		<div style="clear: both;"></div>
+	</header>
+
+	<div class="main">
+		<h1>You have signed in! :D</h1>
+		<p>This is pretty neat huh? Only those who pass the authentication process can see this page. Using post to signin to a webserver, sweet ;)</p>
+		<p>Please enjoy this lovely gif as your reward</p>
+		<img src="lizard_bday_party.gif">
+
+	</div>
+	<footer class="fixed">
+		<div class="logo-holder">
+			<img src="/lion-dark.png" class="logo">
+			<span class="logo-title">Project #4</span>
+		</div>
+		<a href="/about.html" class="about">About the Project</a>
+	</footer>
+</body>
+</html>

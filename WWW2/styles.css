@@ -1,0 +1,311 @@
+/*
+
+color options:
+	#235270 (dark blue)
+	#24622e (dark green)
+	#354750 (blue slate)
+
+*/
+
+.blue {
+	background-color: #235270;
+}
+
+.green {
+	background-color: #24622e;
+}
+
+.slate {
+	background-color: #354750;
+}
+
+.slate h1 {
+	color: white;
+	margin-top: 40px;
+	padding: 0;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-size: 49px;
+}
+
+.left {
+	float: left;
+}
+
+body {
+	font-family: "Times new Roman";
+	margin: 0;
+}
+
+header {
+	background-color: #c4c4c4;
+	padding: 25px 75px;
+}
+
+header .logo-holder {
+	float: left;
+}
+
+header .logo-title {
+	color: white;
+	font-family: "Times new Roman";
+	font-size: 30px;
+	vertical-align: 16px;
+}
+
+header .logo {
+	width: 60px;
+	height: 60px;
+}
+
+footer {
+	border-top: solid 1px #d5d5d5;
+	margin: 8px 20px;
+	padding: 5px;
+	margin-bottom: 0;
+	font-family: "Times new Roman";
+}
+
+footer.fixed {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer .logo {
+	width: 32px;
+	height: 32px;
+}
+
+footer .logo-title {
+	color: #6e6e6e;
+	font-family: "Times new Roman";
+	font-size: 20px;
+	vertical-align: 9px;
+}
+
+nav {
+	margin-top: 20px;
+	float: right;
+}
+
+nav form {
+	float: left;
+}
+
+nav a.main-nav {
+	float: left;
+	font-family: "Times new Roman";
+	color: white;
+	text-decoration: none;
+	padding: 2px 0px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	border-bottom: solid 1px white;
+	margin-top: 5px;
+}
+
+nav a.main-nav:hover {
+	border-bottom: solid 1px #354750;
+}
+
+.symbol-search {
+	float: left;
+	margin-right: 15px;
+}
+
+.content {
+	width: 950px;
+	margin: 0 auto;
+	min-height: 400px;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 7px 10px;
+	border: solid 1px #3f3f3f;
+	border-radius: 4px;
+	outline: none;
+	width: 100px;
+}
+
+input[type="password"] {
+	background-color: rgb(255, 255, 224);
+}
+
+input:focus {
+	border-color: #23A639;
+}
+
+.button.green, button.green {
+	background-color: #216210;
+}
+
+.button.green:active, button.green:active {
+	background-color: #243e1e;
+}
+
+.button, button {
+	font-family: "Arial";
+	text-decoration: none;
+	outline: none;
+	border: solid 1px #3f3f3f;
+	border-radius: 4px;
+	background-color: #929292;
+	color: white;
+	padding: 7px 10px;
+	cursor: pointer;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	letter-spacing: -1px;
+	background-image: url(/button-background.png);
+	background-size: 100% 50%;
+	background-repeat: repeat-x;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+
+.button:active, button:active {
+	background-color: #505050;
+}
+
+.stage {
+	height: 375px;
+	background-color: #c4c4c4;
+	position: relative;
+}
+
+.loading {
+	font-family: "Times new Roman";
+	color: #717171;
+	position: absolute;
+	left: 48%;
+	top: 40%;
+}
+
+@keyframes rotator {
+	0% {
+		transform: rotateX(0deg) rotateY(0deg);
+	}
+	100% {
+		transform: rotateX(1080deg) rotateY(360deg);
+	}
+}
+
+@-webkit-keyframes rotator {
+	0% {
+		transform: rotateX(0deg) rotateY(0deg);
+	}
+	100% {
+		transform: rotateX(0deg) rotateY(720deg);
+	}
+}
+
+.loading .sig {
+	display: inline-block;
+	font-size: 65px;
+}
+
+.loading .p {
+	display: inline-block;
+	font-size: 32px;
+	line-height: 65px;
+	vertical-align: 12px;
+	animation: rotator 6s linear infinite;
+	-webkit-animation: rotator 6s linear infinite;
+}
+
+.about {
+	float: right;
+	margin-right: 40px;
+	margin-top: -27px;
+	text-decoration: none;
+	color: #808080;
+	font-size: 13px;
+	display: block;
+}
+
+.about:hover {
+	border-bottom: solid 1px #a5a5a5;
+}
+
+svg.canvas {
+	margin: 15px;
+}
+
+.login-pane {
+	width: 315px;
+	margin: 35px auto;
+	background-color: white;
+	padding: 15px;
+	border-radius: 5px;
+	border: solid 1px #505050;
+}
+
+.login-pane label {
+	text-transform: uppercase;
+	font-size: 11px;
+	display: block;
+}
+
+.login-pane input[type="text"], .login-pane input[type="password"] {
+	width: 295px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.not-found-image {
+	width: 741px;
+	height: 270px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.main {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.folder-dir {
+	padding-left: 15px;
+	border-left: dotted 1px #c4c4c4;
+}
+
+.folder-dir div {
+	padding: 3px 5px;
+	font-size: 17px;
+	background: url(doc.png) no-repeat;
+	background-size: 16px 16px;
+	background-position: 1px 4px;
+	padding-left: 23px;
+}
+
+.folder-dir div a {
+	color: #505050;
+}
+
+.folder-dir div.folder {
+	background: url(folder.png) no-repeat;
+	background-size: 16px 16px;
+	background-position: 1px 4px;
+	padding-left: 23px;
+}
+
+.sign-in-promo {
+	position: relative;
+	width: 550px;
+	height: 302px;
+	margin: 15px auto;
+	background-image: url(/signin_promo.png);
+	background-size: 550px;
+	height: 302px;
+}
+
+.sign-in-promo a {
+	position: absolute;
+	top: 144px;
+	left: 249px;
+}
