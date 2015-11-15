@@ -12,7 +12,7 @@ This webserver impliments:
 
 What started out as a class project has turned into a lot more and I plan to keep improving it
 
-To use, run the command
+To use, run the commands
 ```
 make web_server
 ./web_server 80 WWW2/
